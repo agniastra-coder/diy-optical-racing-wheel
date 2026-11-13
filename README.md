@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/ea0613c6-beee-4aec-bf5a-b80843b3ce39
 ### ⚙️ How It Works
 1. **Optical Steering Axis:** Tracks rotational wheel movement via a high-DPI optical mouse sensor mounted to the steering shaft.
 2. **HID Device Isolation:** Separates the wheel's raw mouse input stream from the primary desktop mouse so cursor movement never interferes with gameplay.
-3. **Virtual Gamepad Translation (`wheel-script.py`):** Captures raw X-axis optical deltas in real time, applies dynamic sensitivity curves, smoothing, and auto-centering logic, and feeds them into a virtual Xbox 360 controller via **ViGEmBus**.
+3. **Virtual Gamepad Translation ([wheel-script.py](https://github.com/user-attachments/files/34785741/wheel-script.py)):** Captures raw X-axis optical deltas in real time, applies dynamic sensitivity curves, smoothing, and auto-centering logic, and feeds them into a virtual Xbox 360 controller via **ViGEmBus**.
 4. **Tactile Paddle Shifters:** Microswitch-based upshift/downshift paddles wired for crisp, zero-debounce gear changes.
 
 ---
@@ -28,3 +28,4 @@ https://github.com/user-attachments/assets/ea0613c6-beee-4aec-bf5a-b80843b3ce39
 1. Install the **ViGEmBus** driver (Windows) and required Python packages:
    ```bash
    pip install vgamepad inputs
+
