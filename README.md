@@ -2,7 +2,7 @@
 
 A custom-built sim-racing steering wheel and paddle-shifter controller engineered using an optical mouse sensor, microswitches, and a Python virtual-gamepad feeder (`ViGEmBus` / `vJoy`) for *BeamNG.drive* and *Car Parking Multiplayer 2*.
 
-![Hardware Setup]
+### 🎥 Live Working Demo
 
 https://github.com/user-attachments/assets/ea0613c6-beee-4aec-bf5a-b80843b3ce39
 
